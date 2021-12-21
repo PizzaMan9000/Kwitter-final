@@ -1,0 +1,147 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+  --bg-primary: #9426d4;
+  --bg-secondary: #ffffff;
+  --font-color: #616061;
+  font-family: 'Raleway', sans-serif;
+}
+
+body
+{
+	background-color: white;
+	color: #616061;
+}
+
+.header
+{
+	color: var(--font-color);
+	font-family: 'Yeon Sung';
+	font-size: 45px;letter-spacing: 10px;
+	margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: var(--bg-primary);
+	float: none;
+	border-radius: 15px;
+	color: white !important;
+	box-shadow: 10px 5px 5px #eb36ff;
+}
+
+.logo
+{
+	width: 100px;
+	margin-top: 30px;
+	border-radius: 40px;
+}
+
+#login_button
+{
+	width: 80%;
+	border-radius: 15px;
+	background-color: white;
+	color: var(--bg-primary) !important;
+	transition: 200ms ease;
+}
+
+#login_button:hover {
+	background-color: var(--bg-primary) !important;
+	color: white !important;
+	border: white 3px solid;
+}
+
+.room_name
+{
+	cursor: pointer;
+	font-size: 20px;
+	color: black;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+
+::-webkit-scrollbar {
+	width: 1.5rem;
+}
+
+::-webkit-scrollbar-track {
+	background-color: var(--bg-primary);
+	
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: white;
+	height: 50px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	border: grey 3px solid;
+}
+
+.kwitterRoom {
+	background-color: var(--bg-primary);
+	color: white !important;
+}
+
+.container {
+	background-color: var(--bg-primary);
+}
